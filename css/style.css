@@ -1,13 +1,34 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 16px;
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: #2B2E40;
   float: left;
   position: fixed;
   width: 100%;
+}
+
+figcaption {
+  font-size: 90%;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 2;
+  text-transform: capitalize;
+}
+
+h3 {
+  font-size: 1.2em;
+  line-height: 1.2;
+}
+
+p {
+  line-height: 1.4;
 }
 
 .logo {
@@ -49,4 +70,19 @@ article {
 .container {
   margin: 0 auto;
   width: 50%;
+}
+
+.author {
+  font-weight: bold;
+  line-height: 2.5;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+a:hover {
+  color:#F94E18;
 }
